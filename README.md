@@ -30,24 +30,6 @@ garage_project/
 └── README.md     # This documentation file
 ```
 
----
-
-## ⚙️ How to Compile and Run
-
-### **Compile**
-
-```bash
-gcc main.c -o garage
-```
-
-### **Run**
-
-```bash
-./garage
-```
-
----
-
 ## 📖 How to Use the Program
 
 When you run the program, you will see the **main menu**:
@@ -87,7 +69,7 @@ jobID,customerName,contact,vehicleType,vehicleNumber,problem,date,status,partsCo
 * Example:
 
 ```
-1,John Doe,1234567890,Car,ABC123,Engine Problem,15/08/2025,Pending,200.00,150.00
+1: John Doe,1234567890,Car,ABC123,Engine Problem,15/08/2025,Pending,200.00,150.00
 ```
 
 ---
@@ -99,18 +81,9 @@ jobID,customerName,contact,vehicleType,vehicleNumber,problem,date,status,partsCo
 
 ---
 
-## 📌 Notes for Beginners
-
-* **`readLine()`** function is used to read strings safely.
-* Always remove leftover newline after `scanf()` to prevent input skipping.
-* The program overwrites `jobs.txt` whenever a job is updated or deleted to keep data fresh.
-
----
 
 ## 👨‍💻 Author
 
-Developed by **\[Your Name]** as a beginner-friendly C project.
+Developed by **Israt Jahan Shefa** as a beginner-friendly C project.
 
----
 
-Do you want me to make a **more professional GitHub-style README** with **images and example screenshots** so it looks visually appealing for a project submission? That would make it look very polished.
